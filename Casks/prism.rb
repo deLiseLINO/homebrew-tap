@@ -1,14 +1,16 @@
 cask "prism" do
   arch arm: "arm64", intel: "x64"
 
-  version "0.1.0-rc6"
-  sha256 arm:   "f43aff64efdba4fcfb2cca016f39248626e59b6c21e85b347378bb89d7a86190",
-         intel: "7e027048c0ec88ef198a5dfb37269e6c01094d31e95b2b9c4e2d183efbcfbdc6"
+  version "0.1.0-rc.3"
+  sha256 arm:   "e65f9b6cd393635d6d3633e94f284e3002f5b386cbcabd1180d1d5f821366035",
+         intel: "626b3b3092cfd0d2fdc9302bdeeed7ace5e28dfcf66d7afba4b39163ac3459b7"
 
-  url "https://github.com/deLiseLINO/prism-draft/releases/download/v#{version}/Prism-#{version}-#{arch}.dmg"
+  url "https://github.com/deLiseLINO/prism/releases/download/v#{version}/Prism-#{version}-#{arch}.dmg"
   name "Prism"
-  desc "Desktop app for Prism (Electron UI + Go daemon)"
-  homepage "https://github.com/deLiseLINO/prism-draft"
+  desc "Desktop app for Prism"
+  homepage "https://github.com/deLiseLINO/prism"
+
+  auto_updates true
 
   app "Prism.app"
 end
