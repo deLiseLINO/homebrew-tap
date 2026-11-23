@@ -1,9 +1,9 @@
 cask "prism-desktop" do
   arch arm: "arm64", intel: "x64"
 
-  version "0.1.0-rc.36"
-  sha256 arm:   "1ea589b0273b4a2056f9793df8eeba0e74300b85c6dbc657e2d4a27d3bd08190",
-         intel: "7eaa6348ec9493c9ea3f60ef611bfd0bbaa943a565b423060fc70992ec547853"
+  version "0.1.0-rc.37"
+  sha256 arm:   "63d0d832e0869213ec3dddbc70ba8edbc2053db6606406a2a66529e0c45d1341",
+         intel: "82db65c02b8363fc2daee4090e7c4608d7b4c587b8c6df35ec1b756d9aa7c11f"
 
   url "https://github.com/deLiseLINO/prism/releases/download/v#{version}/Prism-#{version}-#{arch}.dmg"
   name "Prism"
