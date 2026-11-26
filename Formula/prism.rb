@@ -1,27 +1,27 @@
 class Prism < Formula
   desc "Prism CLI and daemon"
   homepage "https://github.com/deLiseLINO/prism"
-  version "0.1.0-rc.37"
+  version "0.1.0-rc.39"
 
   on_macos do
     on_arm do
       url "https://github.com/deLiseLINO/prism/releases/download/v#{version}/prism_#{version}_darwin_arm64.tar.gz"
-      sha256 "1286953e9dbbc5e03190d51353a623a6b73f7e4295d0ca0622e4a15d9f7a22b8"
+      sha256 "5db795e3975ffd4c723258b412378316bfd08e5355606d0df5b318601adbdf9c"
     end
     on_intel do
       url "https://github.com/deLiseLINO/prism/releases/download/v#{version}/prism_#{version}_darwin_amd64.tar.gz"
-      sha256 "65ef02db884eae292edcbf5d61f30dd7347f285b84abb370f631ce83ea31821a"
+      sha256 "5af1a3fd595313d9116ae6924460cc1c04b3151bc66d9105c7f5046c934543b0"
     end
   end
 
   on_linux do
     on_arm do
       url "https://github.com/deLiseLINO/prism/releases/download/v#{version}/prism_#{version}_linux_arm64.tar.gz"
-      sha256 "601a75caf18801d3a3c2b154ab9714919240e4ee7e5559089614c3ca10694db1"
+      sha256 "5c0c5720efc7337aa10dd5914b8ff5c3a92ac1c21b650217c866298ade22aeb2"
     end
     on_intel do
       url "https://github.com/deLiseLINO/prism/releases/download/v#{version}/prism_#{version}_linux_amd64.tar.gz"
-      sha256 "b3d7f9e4af6e30d52dd02a0101332b72b716807b12581a2a41a799b58a8d3aea"
+      sha256 "5700ffc6024bd2c609b7be8dd6f5e8f51e968ca17aaccc1c76ddd88766f8adfa"
     end
   end
 
